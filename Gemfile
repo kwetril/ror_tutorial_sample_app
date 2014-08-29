@@ -7,7 +7,7 @@ gem 'bcrypt-ruby', '3.1.2'
 gem 'pg', '0.15.1'
 
 group :development, :test do
-  gem 'rspec-rails', '2.13.1'
+  gem 'rspec-rails', '~> 2.14.0.rc1'
 end
 
 group :test do
